@@ -14,6 +14,8 @@ Below actions are performed
 5.	Build & push initial Blue and Green images
 6.	Deploy Blue & Green deployments
 7.	Point service to Blue initially
+
+
 **2. CI-CD**
 
 Jenkins job to automatically update deployment and switchover. Below is the flow:
