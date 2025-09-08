@@ -2,27 +2,39 @@
 **Prerequisites**
 
 •	Terraform installed
+
 •	Java 8 installed
+
 •	kubectl installed
+
 •	Docker installed
+
 Steps
 1.	****Full Setup**
    
 Below actions are performed
+
+
 3.	Create the EKS cluster with Terraform
-4.	Deploy Jenkins to Kubernetes
-5.	Build & push initial Blue and Green images
-6.	Deploy Blue & Green deployments
-7.	Point service to Blue initially
+
+5.	Deploy Jenkins to Kubernetes
+
+7.	Build & push initial Blue and Green images
+   
+9.	Deploy Blue & Green deployments
+    
+11.	Point service to Blue initially
 
 
 **2. CI-CD**
 
 Jenkins job to automatically update deployment and switchover. Below is the flow:
 Two identical environments:
+
 Blue: live (serving users)
 
 Green: idle (ready for updates)
+
 On each deployment:
 Detects which version is live
 
